@@ -1,0 +1,791 @@
+{
+  "id": "7687397d-6905-4341-9bb6-e74670b0ef37",
+  "version": "2.0",
+  "name": "startech",
+  "url": "https://www.startech.com.bd",
+  "tests": [{
+    "id": "c2359823-cbc6-4d8e-860a-5637033bb003",
+    "name": "headphn ckh",
+    "commands": [{
+      "id": "5c682df9-d556-455b-8edb-4d86c2911f13",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e57ce688-fc56-4d88-bd48-76e5466b8063",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1192b386-dfc6-44ea-b59d-8d238cf1e3ad",
+      "comment": "",
+      "command": "click",
+      "target": "css=.cat-item:nth-child(12) .cat-icon",
+      "targets": [
+        ["css=.cat-item:nth-child(12) .cat-icon", "css:finder"],
+        ["xpath=//div[12]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02e77bdc-79f9-43d4-845d-cb74c1760b93",
+      "comment": "",
+      "command": "mouseDownAt",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": "98.39999389648438,11.800003051757812"
+    }, {
+      "id": "c257ab36-9cf8-4395-a5ca-515de1950df5",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "css=.noUi-connect",
+      "targets": [
+        ["css=.noUi-connect", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "109.39999389648438,6.8000030517578125"
+    }, {
+      "id": "5b4a1de4-74fe-42f8-aaca-d19b7b9646df",
+      "comment": "",
+      "command": "mouseUpAt",
+      "target": "css=.noUi-connect",
+      "targets": [
+        ["css=.noUi-connect", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": "109.39999389648438,6.8000030517578125"
+    }, {
+      "id": "06fa9905-bdcd-4b36-a648-29334baf50e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.noUi-handle-upper",
+      "targets": [
+        ["css=.noUi-handle-upper", "css:finder"],
+        ["xpath=//div[@id='rang-slider']/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "ea8f1535-5cc5-4239-b8c9-fa7810c61ff8",
+    "name": "searching 5 times",
+    "commands": [{
+      "id": "99a20f16-b89f-4be0-af28-273fb1239f25",
+      "comment": "",
+      "command": "times",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02758f27-a0f6-42e9-bbea-9b6526a884bf",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14df2750-1059-4d7a-9577-529d9b517644",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "35da1bb1-f927-4939-9847-91ab0f8a9a6c",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4478aac0-b0f5-4d14-a433-2ec85e36dbf7",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "apple macbook"
+    }, {
+      "id": "33882c34-b4bd-42db-bd1f-69eb5a17a7de",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b1fa5a0c-00c9-4e9a-a9e3-1f2874d92ef8",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "80325193-94d2-44b1-8d0d-8db69eb6f212",
+    "name": "macbook pro ",
+    "commands": [{
+      "id": "91c35ab7-e63f-4c2c-add4-d366184df0df",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "203dfba7-1678-4dea-8156-d5345f0e24fe",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6f96cfe1-ccc5-4281-aff5-b2b76bad96e4",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "201b2b41-a494-40f7-b0d4-8297a03e4186",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "macbook pro"
+    }, {
+      "id": "ff635688-e376-420b-9880-7532e38626ad",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "85c4a12b-483f-4dde-b5fb-65ec9d1f5652",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) img",
+      "targets": [
+        ["css=.p-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Apple MacBook Pro 13.3-Inch Retina Display M2 Chip 8GB RAM 256GB SSD Space Gray (MNEH3)']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac905f5f-d0c6-4e76-b0a2-661192591059",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76569525-9db9-4a13-be42-1d0a5d4a7964",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-btn > .btn",
+      "targets": [
+        ["css=.checkout-btn > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "28a5176e-4ea3-4baa-8c8e-c90c2e837539",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-confirm",
+      "targets": [
+        ["id=button-confirm", "id"],
+        ["css=#button-confirm", "css:finder"],
+        ["xpath=//button[@id='button-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "214d7d37-bd49-49a6-90ff-db0d2b3f6113",
+    "name": "submit without email",
+    "commands": [{
+      "id": "87d73e37-96a8-42f6-bc90-d3ea277f67d2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "86c0f86e-c66c-4c2c-a8d7-f8938c63a064",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9715c2b-d59c-4eb6-8366-1bd730cf0773",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b8a7118-31e8-4bc0-ae9a-5f165286fe69",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "macbook pro "
+    }, {
+      "id": "76db0535-fc50-4613-8ae6-a3733a072f84",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c0e230cb-04c1-4699-9766-97efb80f9102",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) img",
+      "targets": [
+        ["css=.p-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Apple MacBook Pro 13.3-Inch Retina Display M2 Chip 8GB RAM 256GB SSD Space Gray (MNEH3)']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1537430e-28ca-41c5-831f-321f15ff8b0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "354e1656-baf4-40b0-bbf1-99987463a31b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-btn > .btn",
+      "targets": [
+        ["css=.checkout-btn > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "130b86b0-60cb-4dcc-ae9b-7a0ed60aacac",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-address",
+      "targets": [
+        ["id=input-address", "id"],
+        ["name=address_1", "name"],
+        ["css=#input-address", "css:finder"],
+        ["xpath=//input[@id='input-address']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7d08070-7d89-4ff4-8f1f-5ed49bcccc49",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-address",
+      "targets": [
+        ["id=input-address", "id"],
+        ["name=address_1", "name"],
+        ["css=#input-address", "css:finder"],
+        ["xpath=//input[@id='input-address']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "390/G6 , Baf base bbd"
+    }, {
+      "id": "07d49b94-b690-45ab-a876-4ce1c0c886de",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-firstname",
+      "targets": [
+        ["id=input-firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#input-firstname", "css:finder"],
+        ["xpath=//input[@id='input-firstname']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "azraf"
+    }, {
+      "id": "4490577c-e0c2-4157-9ecd-6a3197b00a47",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-lastname",
+      "targets": [
+        ["id=input-lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#input-lastname", "css:finder"],
+        ["xpath=//input[@id='input-lastname']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "faheem"
+    }, {
+      "id": "911d74c7-d857-43b4-bf2f-ae5b1ea7d0d4",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-telephone",
+      "targets": [
+        ["id=input-telephone", "id"],
+        ["name=telephone", "name"],
+        ["css=#input-telephone", "css:finder"],
+        ["xpath=//input[@id='input-telephone']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": "01521377588"
+    }, {
+      "id": "7dc986e9-2534-4fa9-996b-f9f3ed11a26d",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-city",
+      "targets": [
+        ["id=input-city", "id"],
+        ["name=city", "name"],
+        ["css=#input-city", "css:finder"],
+        ["xpath=//input[@id='input-city']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[5]/div/input", "xpath:idRelative"],
+        ["xpath=//div[5]/div/input", "xpath:position"]
+      ],
+      "value": "Dhaka"
+    }, {
+      "id": "d864acf7-ecd1-49bc-bd3a-364f55bedd9a",
+      "comment": "",
+      "command": "click",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "93a7b41e-b475-42f6-8f15-097a6083a06e",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-email",
+      "targets": [
+        ["id=input-email", "id"],
+        ["name=email", "name"],
+        ["css=#input-email", "css:finder"],
+        ["xpath=//input[@id='input-email']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div/div/div[2]/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c91c00be-adae-45ad-af4e-099e22cd5a23",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-confirm",
+      "targets": [
+        ["id=button-confirm", "id"],
+        ["css=#button-confirm", "css:finder"],
+        ["xpath=//button[@id='button-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "02937ba0-113f-40a2-80a0-692ee7955803",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(8)",
+      "targets": [
+        ["css=p:nth-child(8)", "css:finder"],
+        ["xpath=//p[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a06b4c6-5c1a-456d-ac2a-053c75dcb93a",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(8)",
+      "targets": [
+        ["css=p:nth-child(8)", "css:finder"],
+        ["xpath=//p[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "80d4a7b7-d3fb-45f9-910e-3f6a84822c66",
+    "name": "confirm without terms and condition ",
+    "commands": [{
+      "id": "80f212a7-5d0f-4e00-a0d1-92803d58e839",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d43d6da1-d2a1-449b-875a-95b2dc6fedfd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "616367a3-34ee-411c-b55d-91863f1f4c99",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f0becc0-cee7-40a6-8553-7732649b58f4",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "macbook pro"
+    }, {
+      "id": "39a6ed55-c305-417d-a060-add89605666e",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e443e356-bfaf-43d1-9631-775ce00cf5ef",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) img",
+      "targets": [
+        ["css=.p-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='Apple MacBook Pro 13.3-Inch Retina Display M2 Chip 8GB RAM 256GB SSD Space Gray (MNEH3)']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0036416b-8ad0-4fa2-b8a1-1607f5b84037",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "22adb689-9e2e-4815-8b48-776436de2544",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-btn > .btn",
+      "targets": [
+        ["css=.checkout-btn > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c08740c-ee27-4335-92cb-f2afab5f1210",
+      "comment": "",
+      "command": "click",
+      "target": "name=agree",
+      "targets": [
+        ["name=agree", "name"],
+        ["css=input:nth-child(4)", "css:finder"],
+        ["xpath=//input[@name='agree']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfbfbb49-0c7d-4392-924b-b4292c2f6add",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-confirm",
+      "targets": [
+        ["id=button-confirm", "id"],
+        ["css=#button-confirm", "css:finder"],
+        ["xpath=//button[@id='button-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "5ac3c3d4-08ea-427e-ac4e-667429493e0b",
+    "name": "online ",
+    "commands": [{
+      "id": "8f9a98cc-5d15-44b8-928c-6a716ca13c3e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a06f91ef-03f0-464b-b7dc-d936c90cfc11",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b6b5bb70-baf1-46eb-a8a7-22ffe8265cfe",
+      "comment": "",
+      "command": "click",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "101e32be-3d35-4313-946b-12f10519745f",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "mousepad"
+    }, {
+      "id": "3101c309-966b-4a0c-ae6d-a8440afeded7",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search",
+      "targets": [
+        ["name=search", "name"],
+        ["css=#search > input", "css:finder"],
+        ["xpath=//input[@name='search']", "xpath:attributes"],
+        ["xpath=//div[@id='search']/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "41cc50e6-e57e-4b13-b58f-03b943cde1a4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.p-item:nth-child(1) img",
+      "targets": [
+        ["css=.p-item:nth-child(1) img", "css:finder"],
+        ["xpath=//img[@alt='ORICO MPS3025 3mm Mouse Pad']", "xpath:img"],
+        ["xpath=//div[@id='content']/div[2]/div/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a96ea89d-c606-4b42-bdde-baf08930eab8",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-cart",
+      "targets": [
+        ["id=button-cart", "id"],
+        ["css=#button-cart", "css:finder"],
+        ["xpath=//button[@id='button-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='product']/div/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Buy Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6b934958-708c-4578-86bb-7b34d423f942",
+      "comment": "",
+      "command": "click",
+      "target": "css=.checkout-btn > .btn",
+      "targets": [
+        ["css=.checkout-btn > .btn", "css:finder"],
+        ["xpath=//a[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ffd60f8-5b9f-43cd-946e-c0d8f1128aaf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.radio-inline:nth-child(5) > input",
+      "targets": [
+        ["css=.radio-inline:nth-child(5) > input", "css:finder"],
+        ["xpath=(//input[@name='payment_method'])[2]", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div/div[2]/div/div/div/label[2]/input", "xpath:idRelative"],
+        ["xpath=//label[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "803be76b-537a-41db-8cb2-85a710e20798",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-confirm",
+      "targets": [
+        ["id=button-confirm", "id"],
+        ["css=#button-confirm", "css:finder"],
+        ["xpath=//button[@id='button-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='checkout-form']/div[2]/button", "xpath:idRelative"],
+        ["xpath=//form/div[2]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Confirm Order')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7189614d-9a63-4d8d-9347-f8ff4a4e74d4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pay Now",
+      "targets": [
+        ["linkText=Pay Now", "linkText"],
+        ["css=.st-outline", "css:finder"],
+        ["xpath=//a[contains(text(),'Pay Now')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/checkout/payment?order_id=318888')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pay Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4688f770-76cb-4385-8146-d1015f608f01",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Pay Now",
+      "targets": [
+        ["linkText=Pay Now", "linkText"],
+        ["css=.st-outline", "css:finder"],
+        ["xpath=//a[contains(text(),'Pay Now')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.startech.com.bd/checkout/payment?order_id=318888')]", "xpath:href"],
+        ["xpath=//div[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Pay Now')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "46e8489f-1d1f-4c81-95d8-ee9b709b4667",
+      "comment": "",
+      "command": "click",
+      "target": "id=button-confirm",
+      "targets": [
+        ["id=button-confirm", "id"],
+        ["css=#button-confirm", "css:finder"],
+        ["xpath=//button[@id='button-confirm']", "xpath:attributes"],
+        ["xpath=//form[@id='payment-form']/div[5]/button", "xpath:idRelative"],
+        ["xpath=//div[5]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Pay')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "69ea4e43-3b38-4936-a781-7600306ca65e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c2359823-cbc6-4d8e-860a-5637033bb003"]
+  }],
+  "urls": ["https://www.startech.com.bd/"],
+  "plugins": []
+}
